@@ -1,0 +1,60 @@
+1
+00:00:01,204 --> 00:00:01,217
+1. openBrowser("")
+
+2
+00:00:12,803 --> 00:00:12,805
+5. navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+
+3
+00:00:17,602 --> 00:00:17,605
+9. click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:20,803 --> 00:00:20,807
+13. setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+
+5
+00:00:24,586 --> 00:00:24,589
+17. setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+6
+00:00:28,657 --> 00:00:28,659
+21. click(findTestObject("Page_CURA Healthcare Service/button_Login"))
+
+7
+00:00:32,289 --> 00:00:32,294
+25. selectOptionByValue(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), "Hongkong CURA Healthcare Center", true)
+
+8
+00:00:47,137 --> 00:00:47,139
+29. click(findTestObject("Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission"))
+
+9
+00:00:49,289 --> 00:00:49,291
+33. click(findTestObject("Page_CURA Healthcare Service/input_Medicaid_programs"))
+
+10
+00:00:51,420 --> 00:00:51,422
+37. click(findTestObject("Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon"))
+
+11
+00:00:53,591 --> 00:00:53,593
+41. click(findTestObject("Page_CURA Healthcare Service/td_20"))
+
+12
+00:00:55,740 --> 00:00:55,743
+45. setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "sample test2")
+
+13
+00:00:59,018 --> 00:00:59,019
+49. click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment"))
+
+14
+00:01:01,987 --> 00:01:01,990
+53. verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Appointment Confirmation"), 0)
+
+15
+00:01:03,060 --> 00:01:03,062
+57. closeBrowser()
+

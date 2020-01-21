@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test1,IE 11,,,2020-01-20 15:18:32,2020-01-20 15:18:53,21.292s,FAILED
+,,,,,,,
+Test Cases/Day1/Test2,IE 11,,,2020-01-20 15:18:32,2020-01-20 15:18:42,10.140s,FAILED
+"openBrowser("""")",IE 11,,,2020-01-20 15:18:33,2020-01-20 15:18:39,6.221s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",IE 11,,,2020-01-20 15:18:39,2020-01-20 15:18:40,1.080s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",IE 11,,,2020-01-20 15:18:40,2020-01-20 15:18:42,2.165s,FAILED
+,,,,,,,
+Test Cases/Day1/Test3,IE 11,,,2020-01-20 15:18:42,2020-01-20 15:18:51,9.123s,FAILED
+"openBrowser("""")",IE 11,,,2020-01-20 15:18:42,2020-01-20 15:18:48,5.665s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",IE 11,,,2020-01-20 15:18:48,2020-01-20 15:18:49,1.055s,PASSED
+"setText(findTestObject(""Orange_HRM/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",IE 11,,,2020-01-20 15:18:49,2020-01-20 15:18:51,2.072s,FAILED

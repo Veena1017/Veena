@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test1,Chrome 79.0.3945.130,,,2020-01-20 15:14:49,2020-01-20 15:16:16,1m - 26.677s,PASSED
+,,,,,,,
+Test Cases/Day1/Test2,Chrome 79.0.3945.130,,,2020-01-20 15:14:50,2020-01-20 15:15:52,1m - 2.526s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.130,,,2020-01-20 15:14:52,2020-01-20 15:15:04,12.036s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 79.0.3945.130,,,2020-01-20 15:15:04,2020-01-20 15:15:08,4.428s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 79.0.3945.130,,,2020-01-20 15:15:08,2020-01-20 15:15:11,2.988s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 79.0.3945.130,,,2020-01-20 15:15:11,2020-01-20 15:15:15,3.262s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 79.0.3945.130,,,2020-01-20 15:15:15,2020-01-20 15:15:18,3.462s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 79.0.3945.130,,,2020-01-20 15:15:18,2020-01-20 15:15:21,2.796s,PASSED
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", true)",Chrome 79.0.3945.130,,,2020-01-20 15:15:21,2020-01-20 15:15:35,14.382s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Chrome 79.0.3945.130,,,2020-01-20 15:15:35,2020-01-20 15:15:37,2.132s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 79.0.3945.130,,,2020-01-20 15:15:37,2020-01-20 15:15:40,2.118s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon""))",Chrome 79.0.3945.130,,,2020-01-20 15:15:40,2020-01-20 15:15:42,2.183s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/td_20""))",Chrome 79.0.3945.130,,,2020-01-20 15:15:42,2020-01-20 15:15:44,2.106s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/textarea_Comment_comment""), ""sample test2"")",Chrome 79.0.3945.130,,,2020-01-20 15:15:44,2020-01-20 15:15:47,3.208s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 79.0.3945.130,,,2020-01-20 15:15:47,2020-01-20 15:15:50,2.564s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/h2_Appointment Confirmation""), 0)",Chrome 79.0.3945.130,,,2020-01-20 15:15:50,2020-01-20 15:15:51,1.060s,PASSED
+closeBrowser(),Chrome 79.0.3945.130,,,2020-01-20 15:15:51,2020-01-20 15:15:52,1.712s,PASSED
+,,,,,,,
+Test Cases/Day1/Test3,Chrome 79.0.3945.130,,,2020-01-20 15:15:52,2020-01-20 15:16:16,23.213s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.130,,,2020-01-20 15:15:53,2020-01-20 15:15:59,6.458s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Chrome 79.0.3945.130,,,2020-01-20 15:15:59,2020-01-20 15:16:03,4.221s,PASSED
+"setText(findTestObject(""Orange_HRM/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 79.0.3945.130,,,2020-01-20 15:16:03,2020-01-20 15:16:07,3.207s,PASSED
+"setText(findTestObject(""Orange_HRM/Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Chrome 79.0.3945.130,,,2020-01-20 15:16:07,2020-01-20 15:16:10,3.203s,PASSED
+"click(findTestObject(""Orange_HRM/Page_OrangeHRM/input_Password_Submit""))",Chrome 79.0.3945.130,,,2020-01-20 15:16:10,2020-01-20 15:16:14,4.046s,PASSED
+closeBrowser(),Chrome 79.0.3945.130,,,2020-01-20 15:16:14,2020-01-20 15:16:16,1.748s,PASSED

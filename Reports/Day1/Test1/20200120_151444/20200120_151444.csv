@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test1,,,,2020-01-20 15:14:50,2020-01-20 15:14:57,6.870s,FAILED
+,,,,,,,
+Test Cases/Day1/Test2,,,,2020-01-20 15:14:51,2020-01-20 15:14:56,4.952s,FAILED
+"openBrowser("""")",,,,2020-01-20 15:14:54,2020-01-20 15:14:56,2.001s,FAILED
+,,,,,,,
+Test Cases/Day1/Test3,,,,2020-01-20 15:14:56,2020-01-20 15:14:57,0.816s,FAILED
+"openBrowser("""")",,,,2020-01-20 15:14:57,2020-01-20 15:14:57,0.054s,FAILED
